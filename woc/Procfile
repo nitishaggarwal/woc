@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/woc" config.wsgi:application
